@@ -1,0 +1,309 @@
+.mySelect {
+    border-radius: .25rem 0 0 .25rem;
+    background-color: #eaeaea;
+}
+
+.listTitle {
+    color: #474747;
+    font-size: 17px;
+    width: 100%;
+    border-bottom: #bbbbbb solid .15rem;
+    margin: 15px 3px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+}
+
+#login {
+    width: 370px;
+    margin: 12% auto;
+}
+
+.loginTitle {
+    color: #474747;
+}
+
+.dLine {
+    color: #b2b2b2;
+}
+
+.con > div {
+    display: none;
+}
+
+.con > .con_now {
+    display: block;
+}
+
+a {
+    cursor: pointer;
+}
+
+.post {
+    color: #444;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: #cbcbcb solid 1px;
+}
+
+i {
+    margin-right: 2px;
+}
+
+.post > h5 > a {
+    color: #005097;
+}
+
+.post > div {
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.post > a {
+    margin-right: 15px;
+    font-size: 10px;
+    color: #999999 !important;
+}
+
+.post > span {
+    margin-right: 15px;
+    font-size: 10px;
+    color: #999 !important;
+}
+
+.section {
+    border-bottom: #cbcbcb solid 1px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.section > .sname {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 3px;
+    color: #5a5a5a !important;
+}
+
+.section > a {
+    margin-right: 14px;
+    font-size: 13px;
+    color: #939393 !important;
+}
+
+.section > div {
+    margin-top: 3px;
+    margin-right: 10px;
+    font-size: 13px;
+    color: #999999 !important;
+}
+
+.postHead {
+    height: 50px;
+    padding: 10px 20px;
+    border-bottom: #bbbbbb solid .10rem;
+}
+
+.postHead .sec {
+    top: 30px;
+}
+
+.postHead .btn {
+    float: right;
+    padding: 3px 3px;
+    margin-top: -2px;
+}
+
+.postInfo {
+    font-size: 10px;
+    color: #999999 !important;
+    margin-bottom: 20px;
+}
+
+.postInfo a {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.postBody > p {
+    text-indent: 2em;
+}
+
+.postBody > h3 {
+    padding-top: 15px;
+}
+
+.myComment {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.myComment > textarea {
+    height: 70px;
+    resize: none;
+    float: right;
+}
+
+.myComment > button {
+    float: right;
+    height: 70px;
+    width: 72px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.commentNumber {
+    padding-bottom: 10px;
+    border-bottom: #b2b2b2 solid 1px;
+}
+
+.comment {
+    padding: 10px 20px;
+    border-bottom: #b2b2b2 solid 1px;
+}
+
+.comment > p {
+    margin: 7px 0;
+}
+
+.comment > div {
+    font-size: 12px;
+    color: #878787 !important;
+}
+
+.comment > a {
+    font-size: 14px;
+    color: #656565 !important;;
+}
+
+.postingHead {
+    height: 50px;
+    padding: 10px 20px;
+    border-bottom: #bbbbbb solid .10rem;
+}
+
+.postingFrom {
+    margin-top: 20px;
+}
+
+.postingFrom textarea {
+    resize: none;
+    height: 350px;
+}
+
+.sectionHead {
+    height: 50px;
+    padding: 10px 20px;
+    border-bottom: #bbbbbb solid .10rem;
+}
+
+.sectionHead .btn {
+    float: right;
+    padding: 3px 3px;
+    margin-top: -2px;
+}
+
+.secName {
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.postNo {
+    margin-right: 20px;
+    color: #868686;
+}
+
+.sectionPost {
+    padding: 10px 10px;
+    margin: 5px 20px;
+}
+
+.searchSection {
+    margin-top: 10px;
+    box-shadow: 0 0 2px #d9d9d9;;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.searchSection > .sname {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 3px;
+    color: #5a5a5a !important;
+}
+
+.searchSection > a {
+    margin-right: 14px;
+    font-size: 13px;
+    color: #939393 !important;
+}
+
+.searchSection > div {
+    margin-top: 3px;
+    margin-right: 10px;
+    font-size: 13px;
+    color: #999999 !important;
+}
+
+.myList li {
+    cursor: pointer;
+}
+
+.myList {
+    border-right: solid 2px rgba(0, 0, 0, .125);
+    height: 100%;
+    border-radius: 0;
+}
+
+.mytab {
+    padding-left: 0;
+    height: 100%;
+}
+
+.personal {
+    height: calc(100% - 59px);;
+}
+
+.personal > .row {
+    height: 100%;
+}
+
+.userInfo {
+    margin-top: 20px;
+    width: 98%
+}
+
+.myPost .btn {
+    margin-right: 10px;
+    padding: 5px 15px;
+    font-size: 10px;
+}
+
+#modifyModal textarea {
+    height: 300px;
+    resize: none;
+}
+
+.comment button {
+    margin-top: -10px;
+    margin-right: 10px;
+    padding: 5px 15px;
+    font-size: 10px;
+}
+
+.pwdTab {
+    margin-top: 20px;
+}
+
+.mytab-con {
+    overflow: auto;
+    height: 100%;
+}

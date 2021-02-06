@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/forum.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+    <script src="js/forum.js"></script>
+</head>
+<body>
+    <div id="login">
+        <div class="card text-center">
+            <div class="card-header">
+                <h3 class="loginTitle">MyForum</h3>
+                <ul id="loginTab" class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active">登录</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">注册</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body con">
+                <div id="loginFrom" class="con_now">
+                    <div class="form-group">
+                        <input type="text" class="form-control uname" placeholder="用户名" required>
+                        <div class='invalid-feedback'>此用户名已被使用</div>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control upwd" placeholder="密码" required>
+                    </div>
+                    <button id="loginBtn" class="btn btn-primary w-75">登录</button>
+                </div>
+                <div id="signFrom">
+                    <div class="form-group">
+                        <input type="text" class="form-control uname" placeholder="用户名" required>
+                        <div class='invalid-feedback'>此用户名已被使用</div>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control upwd" placeholder="密码" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control conupwd" placeholder="确认密码" required>
+                        <div class='invalid-feedback'>两次输入的密码不一致</div>
+                    </div>
+                    <button id="signBtn" class="btn btn-primary w-75">注册</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
